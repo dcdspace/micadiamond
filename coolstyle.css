@@ -1,0 +1,580 @@
+BODY		{
+		scrollbar-base-color: #F0F0F0;
+		scrollbar-track-color: #F0F0F0;
+		margin: 0;
+		padding: 0;
+		border: #FFFFFF 0px solid;
+		background-color: #FFFFFF;
+}
+
+/* NON-MENU PAGE LINK COLORS */
+
+a:link		{ color: #145D89; text-decoration: none; }
+
+a:visited	{ color: #145D89; text-decoration: none; }
+
+a:active	{ color: #6633CC; text-decoration: none; }
+
+a:hover		{ color: #996600; text-decoration: none; }
+
+
+
+
+
+
+/* SET OVERALL PAGE HEIGHT IN PIXELS OR PERCENT */
+
+.pageheight	   { height: 100%; }
+
+
+
+
+
+/* THE NEXT LINE CONTROLS THE FONT SIZE FOR ALL PAGES */
+
+
+TABLE 		{ COLOR: #666666; FONT: 11px verdana, arial, sans-serif; font-weight: normal; }
+
+.title 		{ COLOR: #000000; FONT: 17px arial, verdana, sans-serif; font-weight: normal;  letter-spacing: 2px; }
+
+.subtitle 	{ COLOR: #000000; FONT: 16px arial, verdana, sans-serif; font-weight: normal;  letter-spacing: 2px; }
+
+.largetitle	{ COLOR: #888888; FONT: 18px verdana, arial, sans-serif; font-weight: normal; }
+
+.phonetitle 	{ color: #000000; font: 11px verdana, arial, sans-serif; font-weight: bold; }
+
+.hilite		{ COLOR: #CC3333; font-weight: bold; }
+
+.just 		{ text-align: justify; }
+
+.page-splits	{
+		border: #C0C0C0 1px solid;
+		background-color: #FFFFFF;
+		color: #FFFFFF; height: 5px;
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		}
+.bordering img {
+  		border: #000000 1px solid;
+  		margin: 10px;
+        height: 415px;
+        width: 254px;
+}
+.borderingsmall img {
+  		border: #000000 1px solid;
+  		margin: 10px;
+        height: 260px;
+        width: 165px;
+}
+
+#page_effect1 {
+	max-width: 1200px;
+}
+
+
+/* HEADER BACKGROUND COLOR */
+
+.headercolor	{ background-color: #FFFFFF; }
+
+
+
+
+
+
+/* THE LINKS IN THE menu_bottom.js USE THIS CODE */
+
+.smalltitle 	{ COLOR: #999999; FONT: 11px verdana, arial, sans-serif; font-weight: normal; letter-spacing: 4px; }
+
+
+
+
+
+
+/* NON-GALLERY IMAGE BORDERS */
+
+.borders	{ border: #000000 1px solid; }
+
+
+
+
+
+/* PICTURE GALLERY CODE */
+
+.image-border	{ border: #000000 1px solid; margin-bottom: 2px; }
+
+.image-borderon	{ border: #FF0000 1px solid; margin-bottom: 2px; }
+
+.viewer-border	{ BORDER: #000000 1px solid; }
+
+.picturetitle 	{ COLOR: #9999FF; FONT: 13px arial, verdana, sans-serif; font-weight: normal; letter-spacing: 2px; }
+
+.gallerytext	{ COLOR: #666666; FONT: 12px arial, verdana, sans-serif; font-weight: normal; }
+
+.price	 	{ COLOR: #3366FF; FONT: 13px verdana, arial, sans-serif; font-weight: bold }
+
+.formmargin	{ margin: 0px; }
+
+.cartdropdown 	{
+		COLOR: #000000;
+		WIDTH: 130PX;
+		FONT: 10px arial, verdana, sans-serif;
+		margin: 3px;
+		}
+
+
+.button-order{  background-color:#FFFFFF;
+		background-image: url("picts/button-order.gif");
+		FONT-FAMILY: arial, verdana, helvetica, sans-serif;
+		color: #000000;
+		font-size: 8pt;
+		cursor:pointer;
+		height:21px;
+		width: 105px;
+		margin-top:5px;
+		font-weight: bold;
+		BORDER: #000000 1px solid; }
+
+.buttonon-order{  background-color:#FFFFFF;
+		background-image: url("picts/buttonon-order.gif");
+		FONT-FAMILY: arial, verdana, helvetica, sans-serif;
+		color: #000000;
+		font-size: 8pt;
+		cursor:pointer;
+		height:21px;
+		width: 105px;
+		margin-top:5px;
+		font-weight: bold;
+		BORDER: #FF0000 1px solid; }
+
+
+
+/* PICTURE VIEWER TEXT AREA CODE */
+
+.ImageTextTable		{
+			COLOR: #666666;
+			FONT: 11px verdana, arial, sans-serif;
+			font-weight: normal;
+			text-align: left;
+			}	
+
+.ImageFrame		{ width: 525px; height: 150px; border: #000000 0px solid; }
+
+.ImageTextPage		{
+			margin: 0;
+			padding: 8px 15px 8px 15px;
+			background-color:#FFFFFF;
+			}
+
+
+
+
+/* SLIDESHOW CODE */
+
+.slide-text		{ COLOR: #000000; FONT: 12px verdana, arial, sans-serif; font-weight: normal; }
+
+.slide-hilite 		{ COLOR: #999999; FONT: 10px verdana, arial, sans-serif; font-weight: normal; }
+
+.button-gallery 	{
+			background-color:#FFFFFF;
+	        	background-image: url("picts/button-gallery.gif");
+			FONT-FAMILY: arial, verdana, helvetica, sans-serif;
+			color: #999999;
+			font-size: 11px;
+			cursor:pointer;
+			font-weight: bold;
+			text-align: center;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			BORDER: #C5C3CE 1px solid;
+			}
+
+
+.buttonon-gallery	{
+			background-color:#FFFFFF;
+	        	background-image: url("picts/buttonon-gallery.gif");
+			FONT-FAMILY: arial, verdana, helvetica, sans-serif;
+			color: #336699;
+			font-size: 11px;
+			cursor:pointer;
+			font-weight: bold;
+			text-align: center;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			BORDER: #336699 1px solid;
+			}
+
+
+
+
+
+/* SITE SEARCH FORM */
+
+.searchsiteform		{
+			FONT: 12px arial, verdana, sans-serif;
+			color: #000000;
+			background-color: #FFFFFF;
+			WIDTH: 120PX;
+			HEIGHT: 19PX;
+			BORDER: #000000 1px solid;
+			margin-top: 1px;
+			}
+
+
+/* SITE SEARCH BACKGROUND */
+
+.googlesearch		{ background-color: #FFFFFF; }
+
+
+
+
+
+
+
+/* PAYPAL PAYMENT PAGE CODE */
+
+.payform	{ FONT: 13px arial, verdana, sans-serif;
+		background-image: url("picts/shadeform.gif");
+		text-align: left;
+		WIDTH: 125PX;
+		BORDER: #000000 1px solid; }
+
+.payformbox	{
+		BORDER: #000000 1px solid;
+		background-color:#F0F0F0;
+		}
+
+.payformmargin	{ margin: 0px; }
+
+.payformbutton	{ WIDTH: 125PX; }
+
+
+
+
+
+
+
+/* HIDE MENU AND ITEMS FOR PRINTING */
+
+
+@media print {
+.printhide {display:none;}
+.printhelp	{ width:600px; }
+}
+@media screen{
+.printonly { display:none }
+}
+
+
+
+
+
+/* FOOTER TEXT AND LINK COLORS */
+
+
+a.footerlink:link	{ color: #3366FF; text-decoration: none }
+
+a.footerlink:visited	{ color: #3366FF; text-decoration: none }
+
+a.footerlink:active	{ color: #3366FF; text-decoration: none }
+
+a.footerlink:hover	{ color: #FF6600; text-decoration: none }
+
+.footertext 		{ COLOR: #999999; FONT: 12px arial, verdana, sans-serif; font-weight: normal }
+
+
+
+
+
+/* CONTACT PAGE CODE */
+
+
+
+.button 		{
+			background-color:#FFFFFF;
+	        	background-image: url('http://dl.dropbox.com/u/7666643/Mica%20Diamond/button.gif');
+			FONT-FAMILY: arial, verdana, helvetica, sans-serif;
+			color: #999999;
+			font-size: 11px;
+			cursor:pointer;
+			font-weight: bold;
+			text-align: center;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			BORDER: #C5C3CE 1px solid;
+			}
+
+.buttonon 		{
+			background-color:#FFFFFF;
+	        	background-image: url('http://dl.dropbox.com/u/7666643/Mica%20Diamond/buttonon.gif');
+			FONT-FAMILY: arial, verdana, helvetica, sans-serif;
+			color: #336699;
+			font-size: 11px;
+			cursor:pointer;
+			font-weight: bold;
+			text-align: center;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			BORDER: #336699 1px solid;
+			}
+
+
+.shadeform	{ FONT: 13px arial, verdana, sans-serif;
+		background-image: url('http://dl.dropbox.com/u/7666643/Mica%20Diamond/shadeform.gif');
+		text-align: left;
+		WIDTH: 180PX;
+		BORDER: #000000 1px solid; }
+
+
+.textarea	{ FONT: 13px arial, verdana, sans-serif;
+		background-image: url('http://dl.dropbox.com/u/7666643/Mica%20Diamond/shadeform.gif');
+		text-align: left;
+		WIDTH: 240PX;
+		HEIGHT: 125PX;
+		BORDER: #000000 1px solid; }
+
+.dropdown 	{ COLOR: #333333;
+		WIDTH: 180PX;
+		FONT: 11px verdana, arial, sans-serif; }
+
+
+
+
+
+
+
+/* LINKS PAGE CODE */
+
+.linksmargin	{ margin: 0px 0px 10px 0px; }
+
+.searchbutton 	{ background-image: url("picts/button.gif");
+		background-color:#F0F0F0;
+		FONT-FAMILY: arial, verdana, helvetica, sans-serif;
+		color: #000000;
+		font-size: 8pt;
+		height: 20px;
+		padding: 0px 3px 0px 3px;
+		margin-left: 3px;
+		cursor:pointer;
+		font-weight: bold;
+		text-align: center;
+		BORDER: #000000 1px solid; }
+
+.searchform 	{ FONT: 13px arial, verdana, sans-serif;
+		background-image: url("picts/shadeform.gif");
+		background-color: #FFFFFF;
+		WIDTH: 100PX;
+		HEIGHT: 20PX;
+		BORDER: #000000 1px solid; }
+
+
+
+
+
+
+
+
+
+
+
+
+/* START THE CODE FOR THE MENUS */
+
+
+
+.menutable 	{
+		background-image: url('http://dl.dropbox.com/u/7666643/Mica%20Diamond/menu-background.gif');
+		padding: 0px 0px 0px 0px;
+		}
+
+
+.menushadow	{
+		background-image: url('http://dl.dropbox.com/u/7666643/Mica%20Diamond/menu-shadow.gif');
+		border-top: #000000 1px solid;
+		}
+
+
+.menu		{
+		font-family: verdana, arial, helvetica, sans-serif;
+		font-size: 10px;
+		letter-spacing: 1.5px;
+		display: block;
+		padding: 5px 13px 7px 13px;
+		cursor:pointer;
+		font-weight: normal;
+		text-align: center;
+		line-height: 13px;
+		white-space: nowrap;
+		border-right: #C0C0C0 0px solid;
+		}
+
+
+a.menu:link 	{  background-image: url('http://dl.dropbox.com/u/7666643/Mica%20Diamond/menu.gif');
+		   background-color:#FFFFFF;
+		   color: #000000;}
+
+
+a.menu:visited 	{  background-image: url('http://dl.dropbox.com/u/7666643/Mica%20Diamond/menu.gif');
+		   background-color:#FFFFFF;
+		   color: #000000;}
+
+
+a.menu:active 	{  background-image: url('http://dl.dropbox.com/u/7666643/Mica%20Diamond/menu.gif');
+		   background-color:#FFFFFF;
+		   color: #000000;}
+
+
+a.menu:hover 	{  background-image: url('http://dl.dropbox.com/u/7666643/Mica%20Diamond/menuon.gif');
+		   background-color:#FFFFFF;
+		   color: #000000;
+		   padding: 4px 12px 7px 12px;
+		   border-top: #000000 1px solid;
+		   border-right: #000000 1px solid;
+		   border-left: #000000 1px solid; }
+
+
+
+
+
+/* CODE FOR THE menu_gallery.js MENU */
+
+
+.menu-nav	{ font-family: verdana, arial, helvetica, sans-serif;
+		  font-size: 11px;
+		  letter-spacing: 0px;
+		  padding-top: 4px;
+		  padding-bottom: 4px;
+		  padding-left: 4px;
+		  padding-right: 4px;
+		  margin-left: 2px;
+		  margin-right: 1px;
+		  margin-top: 1px;
+		  cursor:pointer;
+		  font-weight: normal;
+		  text-align: center;
+		  display: block;
+		  white-space: nowrap;
+		  border: #FFFFFF 1px solid; }
+
+
+a.menu-nav:link 	{
+			background-color:#FFFFFF;
+			color: #145D89;
+			}
+
+
+a.menu-nav:visited 	{
+			background-color:#FFFFFF;
+			color: #145D89;
+			}
+
+
+a.menu-nav:active 	{
+			background-color:#FFFFFF;
+			color: #145D89;
+			}
+
+
+a.menu-nav:hover 	{
+			background-color:#FFFFFF;
+			color: #145D89;
+			border: #145D89 1px solid;
+			}
+            
+
+#mica {border: 0px;
+            padding: 0px 0px 0px 100px;
+            }
+
+.logoHeader {
+	margin-left: 70px;
+	margin-bottom: -21px;
+}
+
+.mainNav {
+	border-bottom: 1px solid black;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1.5px;
+	display: block;
+	padding: 5px 13px 7px 13px;
+	cursor: pointer;
+	font-weight: normal;
+	text-align: center;
+	line-height: 13px;
+	white-space: nowrap;
+	border-right: #C0C0C0 0 solid;
+	padding-bottom: 0 !important;
+	/*padding-left: 150px !important;*/
+}
+
+.mainNav .nav-link 	{
+	background-color:#FFFFFF;
+	color: #000000;
+	border: 1px solid transparent;
+	margin-right: 13px;
+}
+
+
+.mainNav .nav-link:visited 	{
+	background-color:#FFFFFF;
+	color: #000000;}
+
+
+.mainNav .nav-link:active 	{
+	background-color:#FFFFFF;
+	color: #000000;}
+
+.mainNav .navbar-toggler:focus {
+	outline: none !important;
+}
+
+.navbar-brand {
+	color: rgba(95, 94, 94, 0.82) !important;
+	font-size: 17px !important;
+}
+
+
+
+@media only screen and (max-width: 775px)  {
+	#mica {
+		padding: 0;
+	}
+	#mica img {
+		max-width: 407px;
+	}
+	.logoHeader {
+		margin: 0;
+		width: 100%;
+	}
+
+}
+
+@media only screen and (min-width: 776px) {
+	.mainNav .nav-link:hover 	{
+		background-color: rgb(252, 252, 252);
+		color: #000000;
+		border-top: #000000 1px solid;
+		border-right: #000000 1px solid;
+		border-left: #000000 1px solid;
+		text-decoration: underline;
+	}
+
+	.mainNav {
+		padding-left: 140px !important;
+	}
+
+	.navbar-brand {
+		display: none !important;
+	}
+}
+
+			
