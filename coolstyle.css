@@ -6,6 +6,10 @@ BODY		{
 		border: #FFFFFF 0px solid;
 		background-color: #FFFFFF;
 }
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
 
 /* NON-MENU PAGE LINK COLORS */
 
